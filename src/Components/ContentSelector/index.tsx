@@ -25,17 +25,13 @@ export default function ContentSelector({ options, label }: ContentSelectorProps
               backgroundColor: "transparent !important",
               paddingY: "0 !important",
               border: "none !important",
-              "& li": { backgroundColor: "#3A394080 !important", paddingY: "15px" },
+              "& li": { backgroundColor: "#3A3940 !important", paddingY: "15px" },
             },
           }}
           {...props}
         />
       )}
-      // PaperComponent={({ children }) => (
-      //   <Box sx={{ backgroundColor: "#3A39404D", borderRadius: "12px", marginTop: "8px" }}>
-      //     {children}
-      //   </Box>
-      // )}
+
       popupIcon={<KeyboardArrowDownIcon />}
       options={options || []}
       renderInput={(params) => (
